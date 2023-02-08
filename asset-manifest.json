@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReynoldsSiteApp/static/css/main.fbfe7a48.css",
+    "main.js": "/ReynoldsSiteApp/static/js/main.3b2171b5.js",
+    "static/js/787.1c961b2b.chunk.js": "/ReynoldsSiteApp/static/js/787.1c961b2b.chunk.js",
+    "static/media/Watson-FuelsWigan3.jpg": "/ReynoldsSiteApp/static/media/Watson-FuelsWigan3.3afec4c700b5b95b5c9b.jpg",
+    "static/media/Gwalia-Essar1.jpg": "/ReynoldsSiteApp/static/media/Gwalia-Essar1.5c02a4feb3e61077f4ef.jpg",
+    "static/media/Watson-FuelsWigan1.jpg": "/ReynoldsSiteApp/static/media/Watson-FuelsWigan1.2af7a2e7491808c12958.jpg",
+    "static/media/Watson-FuelsWigan2.jpg": "/ReynoldsSiteApp/static/media/Watson-FuelsWigan2.be4bff0eb901a99d23e7.jpg",
+    "static/media/Gwalia-Essar3.jpg": "/ReynoldsSiteApp/static/media/Gwalia-Essar3.a5c229f59ffd8632d310.jpg",
+    "static/media/Prysor-Essar3.jpg": "/ReynoldsSiteApp/static/media/Prysor-Essar3.3a18d5204c1a4552ca41.jpg",
+    "static/media/Prysor-Essar2.jpg": "/ReynoldsSiteApp/static/media/Prysor-Essar2.69d9c1a29740f419f12b.jpg",
+    "static/media/Gwalia-Essar2.jpg": "/ReynoldsSiteApp/static/media/Gwalia-Essar2.fd7a9e19237d528a21c8.jpg",
+    "static/media/Prysor-Essar1.jpg": "/ReynoldsSiteApp/static/media/Prysor-Essar1.dc341ca84e89fc1fd59d.jpg",
+    "index.html": "/ReynoldsSiteApp/index.html",
+    "main.fbfe7a48.css.map": "/ReynoldsSiteApp/static/css/main.fbfe7a48.css.map",
+    "main.3b2171b5.js.map": "/ReynoldsSiteApp/static/js/main.3b2171b5.js.map",
+    "787.1c961b2b.chunk.js.map": "/ReynoldsSiteApp/static/js/787.1c961b2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbfe7a48.css",
+    "static/js/main.3b2171b5.js"
+  ]
+}
