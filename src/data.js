@@ -4,7 +4,7 @@ export const sites = [
     name: "Gwalia-Essar",
     adress: " London Road, Holyhead LL65 3DR",
     description:
-      "site description, useful information regarding manoeuvring on site, informations regarding potting, hose lenght required, grids / inlets positioning, etc...all this to be filled by a competent person after assessing the site - ",
+      "site description,list of maneouvers to be performed and the specific order, useful information regarding manoeuvring on site, informations regarding potting, hose lenght required, grids / inlets positioning,potential hazards etc...all this to be filled by a competent person after assessing the site - ",
     image: [
       "./assets/pictures/Gwalia-Essar1.jpg",
       "./assets/pictures/Gwalia-Essar2.jpg",
@@ -16,7 +16,7 @@ export const sites = [
     name: "Prysor-Essar",
     adress: "Trawsfynydd, Blaenau Ffestiniog LL41 4TW",
     description:
-      "site description, useful information regarding manoeuvring on site, informations regarding potting, hose lenght required, grids / inlets positioning, etc...all this to be filled by a competent person after assessing the site - ",
+      "site description,list of maneouvers to be performed and the specific order, useful information regarding manoeuvring on site, informations regarding potting, hose lenght required, grids / inlets positioning,potential hazards etc...all this to be filled by a competent person after assessing the site - ",
     image: [
       "./assets/pictures/Prysor-Essar1.jpg",
       "./assets/pictures/Prysor-Essar2.jpg",
@@ -28,7 +28,7 @@ export const sites = [
     name: "Watson Fuels (Wigan)",
     adress: "57 Bickershaw Ln, Abram, Wigan WN2 5PL",
     description:
-      "site description, useful information regarding manoeuvring on site, informations regarding potting, hose lenght required, grids / inlets positioning, etc...all this to be filled by a competent person after assessing the site - ",
+      "site description,list of maneouvers to be performed and the specific order, useful information regarding manoeuvring on site, informations regarding potting, hose lenght required, grids / inlets positioning,potential hazards etc...all this to be filled by a competent person after assessing the site - ",
     image: [
       "./assets/pictures/Watson-FuelsWigan1.jpg",
       "./assets/pictures/Watson-FuelsWigan2.jpg",
