@@ -44,9 +44,18 @@ const App = () => {
       <div>
         {results.map((item) => (
           <div className="siteItems">
-            <h2>{item.name}</h2>
-            <h4>{item.adress}</h4>
-            <h5>{item.description}</h5>
+            <div className="data">
+              <h2>{item.name}</h2>
+              <h3>{item.adress}</h3>
+              <br></br>
+              <h4>{item.routeInformations}</h4>
+              <h4>{item.description}</h4>
+              <h4>{item.maneouvring}</h4>
+              <h4>{item.potting}</h4>
+              <h4>{item.specialRequirements}</h4>
+              <h4>{item.generalInformations}</h4>
+              <h4>{item.notes}</h4>
+            </div>
             <div className="container">
               {item.image.map((x) => (
                 <img className="image" src={require(`${x}`)} alt={x.image} />
