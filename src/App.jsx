@@ -55,6 +55,11 @@ const App = () => {
               <h4>{item.specialRequirements}</h4>
               <h4>{item.generalInformations}</h4>
               <h4>{item.notes}</h4>
+              <h4>
+                {" "}
+                - Real images with the actual site during delivery{" "}
+                <span>&#8595;&#8595;&#8595;</span>
+              </h4>
             </div>
             <div className="container">
               {item.image.map((x) => (
@@ -64,6 +69,11 @@ const App = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="trademark">
+        <p>
+          Reynolds Logistics <span>&#174;</span> All Rights Reserved
+        </p>
       </div>
     </form>
   );
