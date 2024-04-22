@@ -20,7 +20,7 @@ const App = () => {
   };
 
   return (
-    <form className="" onSubmit={handleSearch}>
+    <div class="MainPage">
       <div class="logo">
         <img
           class="logo"
@@ -28,54 +28,55 @@ const App = () => {
           alt="logo"
         />
       </div>
-      <div className="search-box">
-        <input
-          className="input"
-          type="text"
-          placeholder="search sites"
-          value={searchTerm}
-          onChange={handleChange}
-        />
-      </div>
-      <br />
-      <button type="submit" className="buttonSearch">
-        Search
-      </button>
-      <div>
-        {results.map((item) => (
-          <div className="siteItems">
-            <div className="data">
-              <h2>{item.name}</h2>
-              <h3>{item.adress}</h3>
-              <br></br>
-              <h4>{item.routeInformations}</h4>
-              <h4>{item.description}</h4>
-              <h4>{item.maneouvring}</h4>
-              <h4>{item.potting}</h4>
-              <h4>{item.specialRequirements}</h4>
-              <h4>{item.generalInformations}</h4>
-              <h4>{item.notes}</h4>
-              <h4>
-                {" "}
-                - Real images with the actual site during delivery{" "}
-                <span>&#8595;&#8595;&#8595;</span>
-              </h4>
+      <form className="" onSubmit={handleSearch}>
+        <div className="search-box">
+          <input
+            className="input"
+            type="text"
+            placeholder="search sites"
+            value={searchTerm}
+            onChange={handleChange}
+          />
+        </div>
+        <br />
+        <button type="submit" className="buttonSearch">
+          Search
+        </button>
+        <div>
+          {results.map((item) => (
+            <div className="siteItems">
+              <div className="data">
+                <h2>{item.name}</h2>
+                <h3>{item.adress}</h3>
+                <br></br>
+                <h4>{item.routeInformations}</h4>
+                <h4>{item.description}</h4>
+                <h4>{item.maneouvring}</h4>
+                <h4>{item.potting}</h4>
+                <h4>{item.specialRequirements}</h4>
+                <h4>{item.generalInformations}</h4>
+                <h4>{item.notes}</h4>
+                <h4>
+                  {" "}
+                  - Real images with the actual site during delivery{" "}
+                  <span>&#8595;&#8595;&#8595;</span>
+                </h4>
+              </div>
+              <div className="container">
+                {item.image.map((x) => (
+                  <img className="image" src={require(`${x}`)} alt={x.image} />
+                ))}
+              </div>
             </div>
-            <div className="container">
-              {item.image.map((x) => (
-                <img className="image" src={require(`${x}`)} alt={x.image} />
-              ))}
-              {/* <img src={require(`${item.image}`)} alt={item.name} /> */}
-            </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      </form>
       <div className="trademark">
         <p>
           Reynolds Logistics <span>&#174;</span> All Rights Reserved
         </p>
       </div>
-    </form>
+    </div>
   );
 };
 
