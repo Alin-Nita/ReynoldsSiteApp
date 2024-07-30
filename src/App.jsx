@@ -73,7 +73,7 @@ const App = () => {
       </form>
       <div className="trademark">
         <p>
-          Essar Energy <span>&#174;</span> All Rights Reserved
+          Essar Energy UK <span>&#174;</span> All Rights Reserved
         </p>
       </div>
     </div>
