@@ -14,7 +14,7 @@
   margin-top: 2vh;
   width: 80vw;
   border-radius: 25px;
-  image-rendering: optimizeQuality;
+}
 .trademark {
   color: #060606;
   text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8);
