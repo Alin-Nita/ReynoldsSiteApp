@@ -24,7 +24,7 @@ const App = () => {
       <div class="logo">
         <img
           class="logo"
-          src={require("./assets/pictures/essarFuels.jpg")}
+          src={require("./assets/pictures/ReynoldsLogo.jpg")}
           alt="logo"
         />
       </div>
@@ -73,7 +73,7 @@ const App = () => {
       </form>
       <div className="trademark">
         <p>
-          Essar Energy UK <span>&#174;</span> All Rights Reserved
+          Reynolds Logistics <span>&#174;</span> All Rights Reserved
         </p>
       </div>
     </div>
